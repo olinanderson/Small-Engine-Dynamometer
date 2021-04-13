@@ -1,0 +1,15 @@
+button {
+  margin: 10px;
+  height: 40px;
+}
+
+form {
+  margin: 10px;
+  width: 50%;
+}
+
+div.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
