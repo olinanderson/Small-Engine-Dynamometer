@@ -10,8 +10,10 @@ const SerialPort = require("serialport"),
   fs = require("fs"),
   io = require("socket.io")(server);
 
+// Global Arduino Variables
 const COM = "COM6";
 const baudRate = 115200;
+
 var currentLbft = 0;
 var currentRpm = 0;
 var lbFtArray = [];
